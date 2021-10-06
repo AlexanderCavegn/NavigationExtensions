@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		FA3FFAF9270D8889002C2356 /* NavigationExtensionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFAF8270D8889002C2356 /* NavigationExtensionsApp.swift */; };
-		FA3FFAFB270D8889002C2356 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFAFA270D8889002C2356 /* ContentView.swift */; };
+		FA3FFAFB270D8889002C2356 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFAFA270D8889002C2356 /* AppNavBarView.swift */; };
 		FA3FFAFD270D888B002C2356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3FFAFC270D888B002C2356 /* Assets.xcassets */; };
 		FA3FFB00270D888B002C2356 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3FFAFF270D888B002C2356 /* Preview Assets.xcassets */; };
+		FA3FFB07270D8C3A002C2356 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFB06270D8C3A002C2356 /* CustomNavBarView.swift */; };
+		FA3FFB09270D937A002C2356 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFB08270D937A002C2356 /* CustomNavBarContainerView.swift */; };
+		FA3FFB0C270D988E002C2356 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFB0B270D988E002C2356 /* CustomNavView.swift */; };
+		FA3FFB0E270D9BF1002C2356 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFB0D270D9BF1002C2356 /* CustomNavLink.swift */; };
+		FA3FFB10270DA24D002C2356 /* CustomNavBarPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFB0F270DA24D002C2356 /* CustomNavBarPreferenceKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA3FFAF5270D8889002C2356 /* NavigationExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3FFAF8270D8889002C2356 /* NavigationExtensionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExtensionsApp.swift; sourceTree = "<group>"; };
-		FA3FFAFA270D8889002C2356 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA3FFAFA270D8889002C2356 /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
 		FA3FFAFC270D888B002C2356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3FFAFF270D888B002C2356 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA3FFB06270D8C3A002C2356 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		FA3FFB08270D937A002C2356 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		FA3FFB0B270D988E002C2356 /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		FA3FFB0D270D9BF1002C2356 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		FA3FFB0F270DA24D002C2356 /* CustomNavBarPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,7 @@
 		FA3FFAF7270D8889002C2356 /* NavigationExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				FA3FFAF8270D8889002C2356 /* NavigationExtensionsApp.swift */,
-				FA3FFAFA270D8889002C2356 /* ContentView.swift */,
+				FA3FFB0A270D9867002C2356 /* CustomNavBar */,
 				FA3FFAFC270D888B002C2356 /* Assets.xcassets */,
 				FA3FFAFE270D888B002C2356 /* Preview Content */,
 			);
@@ -65,6 +74,20 @@
 				FA3FFAFF270D888B002C2356 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA3FFB0A270D9867002C2356 /* CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				FA3FFAFA270D8889002C2356 /* AppNavBarView.swift */,
+				FA3FFB0B270D988E002C2356 /* CustomNavView.swift */,
+				FA3FFAF8270D8889002C2356 /* NavigationExtensionsApp.swift */,
+				FA3FFB06270D8C3A002C2356 /* CustomNavBarView.swift */,
+				FA3FFB08270D937A002C2356 /* CustomNavBarContainerView.swift */,
+				FA3FFB0D270D9BF1002C2356 /* CustomNavLink.swift */,
+				FA3FFB0F270DA24D002C2356 /* CustomNavBarPreferenceKey.swift */,
+			);
+			path = CustomNavBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA3FFAFB270D8889002C2356 /* ContentView.swift in Sources */,
+				FA3FFB07270D8C3A002C2356 /* CustomNavBarView.swift in Sources */,
+				FA3FFB09270D937A002C2356 /* CustomNavBarContainerView.swift in Sources */,
+				FA3FFB0C270D988E002C2356 /* CustomNavView.swift in Sources */,
+				FA3FFB10270DA24D002C2356 /* CustomNavBarPreferenceKey.swift in Sources */,
+				FA3FFAFB270D8889002C2356 /* AppNavBarView.swift in Sources */,
+				FA3FFB0E270D9BF1002C2356 /* CustomNavLink.swift in Sources */,
 				FA3FFAF9270D8889002C2356 /* NavigationExtensionsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
