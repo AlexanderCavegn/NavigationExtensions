@@ -16,6 +16,11 @@
 		FA3FFB0C270D988E002C2356 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFB0B270D988E002C2356 /* CustomNavView.swift */; };
 		FA3FFB0E270D9BF1002C2356 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFB0D270D9BF1002C2356 /* CustomNavLink.swift */; };
 		FA3FFB10270DA24D002C2356 /* CustomNavBarPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFB0F270DA24D002C2356 /* CustomNavBarPreferenceKey.swift */; };
+		FA3FFB13270DEE6C002C2356 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFB12270DEE6C002C2356 /* AppTabBarView.swift */; };
+		FA3FFB15270DF0E6002C2356 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFB14270DF0E6002C2356 /* CustomTabBarView.swift */; };
+		FA3FFB17270DFCD2002C2356 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFB16270DFCD2002C2356 /* CustomTabBarContainerView.swift */; };
+		FA3FFB19270E0B49002C2356 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFB18270E0B49002C2356 /* TabBarItemsPreferenceKey.swift */; };
+		FA3FFB1B270ED876002C2356 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FFB1A270ED876002C2356 /* TabBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		FA3FFB0B270D988E002C2356 /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
 		FA3FFB0D270D9BF1002C2356 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
 		FA3FFB0F270DA24D002C2356 /* CustomNavBarPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKey.swift; sourceTree = "<group>"; };
+		FA3FFB12270DEE6C002C2356 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		FA3FFB14270DF0E6002C2356 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		FA3FFB16270DFCD2002C2356 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
+		FA3FFB18270E0B49002C2356 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		FA3FFB1A270ED876002C2356 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				FA3FFB0A270D9867002C2356 /* CustomNavBar */,
+				FA3FFB11270DEE29002C2356 /* CustomTabBar */,
 				FA3FFAFC270D888B002C2356 /* Assets.xcassets */,
 				FA3FFAFE270D888B002C2356 /* Preview Content */,
 			);
@@ -88,6 +99,18 @@
 				FA3FFB0F270DA24D002C2356 /* CustomNavBarPreferenceKey.swift */,
 			);
 			path = CustomNavBar;
+			sourceTree = "<group>";
+		};
+		FA3FFB11270DEE29002C2356 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FA3FFB12270DEE6C002C2356 /* AppTabBarView.swift */,
+				FA3FFB14270DF0E6002C2356 /* CustomTabBarView.swift */,
+				FA3FFB16270DFCD2002C2356 /* CustomTabBarContainerView.swift */,
+				FA3FFB18270E0B49002C2356 /* TabBarItemsPreferenceKey.swift */,
+				FA3FFB1A270ED876002C2356 /* TabBarItem.swift */,
+			);
+			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,13 +183,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3FFB19270E0B49002C2356 /* TabBarItemsPreferenceKey.swift in Sources */,
+				FA3FFB15270DF0E6002C2356 /* CustomTabBarView.swift in Sources */,
 				FA3FFB07270D8C3A002C2356 /* CustomNavBarView.swift in Sources */,
 				FA3FFB09270D937A002C2356 /* CustomNavBarContainerView.swift in Sources */,
 				FA3FFB0C270D988E002C2356 /* CustomNavView.swift in Sources */,
 				FA3FFB10270DA24D002C2356 /* CustomNavBarPreferenceKey.swift in Sources */,
+				FA3FFB1B270ED876002C2356 /* TabBarItem.swift in Sources */,
 				FA3FFAFB270D8889002C2356 /* AppNavBarView.swift in Sources */,
 				FA3FFB0E270D9BF1002C2356 /* CustomNavLink.swift in Sources */,
+				FA3FFB13270DEE6C002C2356 /* AppTabBarView.swift in Sources */,
 				FA3FFAF9270D8889002C2356 /* NavigationExtensionsApp.swift in Sources */,
+				FA3FFB17270DFCD2002C2356 /* CustomTabBarContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
